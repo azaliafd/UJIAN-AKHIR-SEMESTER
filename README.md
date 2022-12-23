@@ -8,11 +8,13 @@
 ## Deskripsi Umum
 
     Array adalah kumpulan-kumpulan variabel yang menyimpan data dengan tipe yang sama atau data-data yang tersusun secara linear dimana di dalamnya terdapat elemen dengan tipe yang sama. Indeks dalam array menyatakan elemen yang disimpan dan panjang atau length menyatakan total elemen yang tersimpan. 
-    
+  
     Elemen-elemen array biasanya ditulis dengan huruf besar disertai indeksnya yang berada di dalam kurung. Terdapat perbedaan mengenai cara penulisan indeks array antara bahasa C++ dan bahasa pemrograman lain.
     
     Matriks adalah kumpulan bilangan atau simbol yang tertata rapi menurut baris dan kolom berbentuk segi empat. Bilangan-bilangan atau simbol-simbol yang terdapat dalam suatu matriks disebut dengan elemen-elemen matriks. Suatu matriks biasanya diberi nama dengan huruf kapital dan ditulis tebal. 
+    
     Elemen-elemen matriks biasanya diberi nama dengan huruf kecil yang sama dengan nama matriks tersebut, disertai 2 indeks bawah yang menunjukkan letaknya di dalam matriks. Indeks pertama menunjukkan baris sedangkan indeks kedua menunjukkan kolom. Jika salah satu dari baris dan kolom suatu matriks jumlahnya hanya satu maka elemen matriks tersebut hanya memiliki satu indeks. Matriks yang hanya memiliki satu indeks disebut dengan vektor.
+    
     Dalam bahasa pemrograman, suatu matriks direpresentasikan oleh array 2 dimensi sedangkan vektor direpresentasikan oleh array 1 dimensi.
 
 
