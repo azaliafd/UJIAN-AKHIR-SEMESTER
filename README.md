@@ -56,48 +56,48 @@ Dalam bahasa pemrograman, suatu matriks direpresentasikan oleh array 2 dimensi s
 
 ## Source Code 2
 
-#include <iostream>
-using namespace std;
-int main (){
-/*2. A. Deret matematika bilangan yang tidak habis dibagi 3, 5, dan 7.
-B. Inputnya, baris pertama merupakan banyaknya baris (bisa diinput 0–20)
-C. Baris kedua merupakan banyaknya kolom
-D. Outputnya, tampilnya bilangan yang tidak habis dibagi 3, 5 , dan 7*/
-int nilai [20][20];
-int jum_baris, jum_kolom, a, z;
-cout << “Masukkan jumlah baris yang diinginkan: “;
-cin >> jum_baris;
-cout << “Masukkan jumlah kolom yang diinginkan : “;
-cin >> jum_kolom;
-for (a = 0; a < jum_baris ; a++){
-for (z = 0; z < jum_kolom; z++){
-cout << “Baris ke-” << a+1 << “, kolom ke-” << z+1 << “ = “;
-cin >> nilai[a][z];
-}
-cout << endl;
-}
-cout << “Nilai yang diinputkan : \n”;
-for (int a = 0; a < jum_baris; a++){
-for (int z = 0; z < jum_kolom; z++){
-cout << nilai[a][z] << ”\t”;
-}
-cout << endl;
-}
-int angka[20];
-int indeks = 0;
-for (a = 0; a < jum_baris; a++){
-for (z = 0; z < jum_kolom; z++) {
-if (nilai[a][z] % 3 != 0 && nilai[a][z] % 5 != 0 && nilai[a][z] % 7 != 0){
-angka[indeks] = nilai[a][z];
-indeks++;
-}
-}
-}
-cout << “\nBilangan yang tidak bisa dibagi oleh bilangan 3, 5, 7 adalah “;
-for(int a = 0; a < indeks; a++){
-cout << angka[a] << “, “;
-}
-}
+        #include <iostream>
+        using namespace std;
+        int main (){
+        /*2. A. Deret matematika bilangan yang tidak habis dibagi 3, 5, dan 7.
+        B. Inputnya, baris pertama merupakan banyaknya baris (bisa diinput 0–20)
+        C. Baris kedua merupakan banyaknya kolom
+        D. Outputnya, tampilnya bilangan yang tidak habis dibagi 3, 5 , dan 7*/
+        int nilai [20][20];
+        int jum_baris, jum_kolom, a, z;
+        cout << “Masukkan jumlah baris yang diinginkan: “;
+        cin >> jum_baris;
+        cout << “Masukkan jumlah kolom yang diinginkan : “;
+        cin >> jum_kolom;
+        for (a = 0; a < jum_baris ; a++){
+        for (z = 0; z < jum_kolom; z++){
+        cout << “Baris ke-” << a+1 << “, kolom ke-” << z+1 << “ = “;
+        cin >> nilai[a][z];
+        }
+        cout << endl;
+        }
+        cout << “Nilai yang diinputkan : \n”;
+        for (int a = 0; a < jum_baris; a++){
+        for (int z = 0; z < jum_kolom; z++){
+        cout << nilai[a][z] << ”\t”;
+        }
+        cout << endl;
+        }
+        int angka[20];
+        int indeks = 0;
+        for (a = 0; a < jum_baris; a++){
+        for (z = 0; z < jum_kolom; z++) {
+        if (nilai[a][z] % 3 != 0 && nilai[a][z] % 5 != 0 && nilai[a][z] % 7 != 0){
+        angka[indeks] = nilai[a][z];
+        indeks++;
+        }
+        }
+        }
+        cout << “\nBilangan yang tidak bisa dibagi oleh bilangan 3, 5, 7 adalah “;
+        for(int a = 0; a < indeks; a++){
+        cout << angka[a] << “, “;
+        }
+        }
 
 ## Output 2
 
