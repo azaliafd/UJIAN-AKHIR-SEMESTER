@@ -17,6 +17,8 @@ Elemen-elemen matriks biasanya diberi nama dengan huruf kecil yang sama dengan n
 
 Dalam bahasa pemrograman, suatu matriks direpresentasikan oleh array 2 dimensi sedangkan vektor direpresentasikan oleh array 1 dimensi.
 
+-
+
 
 ## Source Code 1
 
